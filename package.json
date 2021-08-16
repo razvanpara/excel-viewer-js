@@ -1,0 +1,24 @@
+{
+  "name": "excel-webviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "devstart": "nodemon ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dateformat": "^4.5.1",
+    "exceljs": "^4.2.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  }
+}
